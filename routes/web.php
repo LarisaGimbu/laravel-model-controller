@@ -18,3 +18,5 @@ Route::get('/', 'PageController@index')->name('home');
 Route::get('/contatti', 'PageController@contacts')->name('contacts');
 
 Route::get('/chi-siamo', 'PageController@about')->name('about');
+
+Route::get('/movies', 'MovieController@index')->name('movies');
